@@ -1,0 +1,79 @@
+/* * {
+	border: 1px solid red;
+} */
+
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .container {
+
+} */
+
+header {
+	display: flex;
+	height: 100px;
+	justify-content: center;
+	background-color: chocolate;
+	color: whitesmoke;
+}
+
+.heading {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.heading-title,
+.heading-desc {
+	margin: 0px;
+}
+
+.select-heading {
+	text-align: center;
+}
+
+.selection {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.inputDiv {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid lightslategray;
+	border-bottom: none;
+	padding: 5px 10px;
+}
+
+.inputDiv:nth-of-type(1) {
+	border-radius: 5px 5px 0px 0px;
+}
+
+.inputDiv:last-of-type {
+	border-radius: 0px 0px 5px 5px;
+	border-bottom: 1px solid lightslategray;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.get-memes-btn {
+	border: none;
+	width: 100px;
+	border-radius: 5px;
+	padding: 8px 10px;
+	margin-top: 10px;
+	background-color: chocolate;
+	color: whitesmoke;
+	cursor: pointer;
+}
